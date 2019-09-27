@@ -1,0 +1,653 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Warnes');
+@import url('https://fonts.googleapis.com/css?family=Ramabhadra');
+
+/*Nav*/
+
+#back {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+#levo {
+    background-color: rgba(37, 36, 36, 0.808);
+    width: 15%;
+    height: 1585px;
+    position: absolute;
+    opacity: 0.9;
+}
+
+#iconF {
+    height: 346px;
+    width: 100%;
+    opacity: 0.7;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: -4px;
+}
+
+.brisanje {
+    text-decoration: none;
+
+}
+
+nav ul li {
+    border-bottom: 1px solid black;
+}
+
+nav li:hover {
+    background: rgb(75, 73, 73);
+}
+
+.ikonice {
+    width: 70px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.ikonicePara {
+    margin-top: -80px;
+    margin-left: 70px;
+    color: white;
+    padding: 28px 0px;
+    text-align: center;
+    font-size: 22px;
+    font-style: oblique;
+}
+
+/*Kraj Nav-a*/
+
+/*AllTeams*/
+
+#Main {
+    margin-left: 100%;
+    margin-top: -622px;
+    width: 570%;
+    height: 1585px;
+    background-color: rgba(37, 36, 36, 0.808);
+    border-left: 2px solid black;
+
+}
+
+#konstruktor {
+    background-color: rgb(66, 63, 63);
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid black;
+}
+
+.flex-container {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    padding-top: 15px;
+}
+
+#dugme4 {
+    margin-left: 10px;
+    border-radius: 5px;
+    text-align: left;
+    background-color: rgb(50, 137, 192);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#dugme3 {
+    margin-left: 52%;
+    border-radius: 5px;
+    width: 20%;
+    text-align: left;
+    background-color: darkgray;
+    color: grey;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#dugme2 {
+    margin-left: 10px;
+    border-radius: 5px;
+    text-align: left;
+    background-color: darkgray;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#dugme {
+    margin-left: 45px;
+    width: 140px;
+    border-radius: 5px;
+    text-align: left;
+    background-color: darkgray;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#ispod {
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    line-height: 60px;
+}
+
+#ispod h2 {
+    margin-left: 5%;
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 44px;
+    font-weight: bold;
+    font-family: Warnes, cursive;
+}
+
+#tabela {
+    margin-top: 100px;
+    width: 93%;
+    height: 80%;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+
+#tabelaPrva {
+    width: 100%;
+    height: 55%;
+    border-radius: 10px;
+    background-color: rgba(37, 36, 36, 0.808);
+
+}
+
+#Klik {
+    margin-left: 80px;
+}
+
+table button {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: Ramabhadra, sans-serif;
+    background: transparent;
+    border: none;
+    text-shadow: 0px 1px 2px #000000;
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+    margin-left: 5px;
+
+
+}
+
+table button:hover {
+    font-weight: bold;
+    color: rgb(105, 103, 97);
+}
+
+th {
+    color: white;
+    text-align: left;
+    padding-top: 20px;
+    background-color: rgba(37, 36, 36, 0.808);
+    font-style: oblique;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+
+}
+
+td {
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    border-bottom: 1px solid black
+}
+
+td a {
+    color: rgb(129, 122, 122);
+    text-decoration: none;
+}
+
+/*Kraj AllTeams*/
+
+/*TeamDetails*/
+
+#Main2 {
+    margin-left: 200%;
+    margin-top: -622px;
+    width: 500%;
+    height: 1585px;
+    background-color: rgba(37, 36, 36, 0.808);
+
+}
+
+#konstruktor2 {
+    background-color: rgb(66, 63, 63);
+    width: 120%;
+    height: 60px;
+    border-bottom: 1px solid black;
+    margin-left: -20%;
+}
+
+#naslov {
+    font-family: Ramabhadra, sans-serif;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+#tabelaGlavna {
+    margin-top: 100px;
+    width: 95%;
+    height: 80%;
+    margin-left: 2%;
+    padding: 20px;
+}
+
+#tabelaDva {
+    width: 90%;
+    height: 82%;
+    background-color: rgba(37, 36, 36, 0.808);
+    margin-top: -90px;
+    font-family: Ramabhadra, sans-serif;
+    border-radius: 10px;
+}
+
+
+
+/*Kraj TeamDetails*/
+
+
+/*TeamResults*/
+
+#podaci {
+    width: 100%;
+    height: 1524px;
+    background-color: rgba(34, 32, 32, 0.808);
+    color: white;
+    margin-left: 100%;
+    margin-top: -1554px;
+}
+
+#UnutrasnjiPodaci {
+    padding: 30px;
+    margin-top: 30px;
+    font-family: Ramabhadra, sans-serif;
+}
+
+#slikaKonstruktor {
+    width: 105px;
+    height: 85px;
+
+}
+
+#slikeZastava {
+    margin-left: 124px;
+    margin-top: -95px;
+}
+
+#okvirResult {
+    width: 126%;
+    height: 200px;
+    margin-left: -29px;
+    border-bottom: 1px solid black;
+}
+
+#okvirResult p {
+    margin-left: 30px;
+
+}
+
+/*Kraj TeamResults*/
+
+/*Vozaci*/
+#Main3 {
+    margin-left: 100%;
+    margin-top: -622px;
+    width: 570%;
+    height: 1585px;
+    background-color: rgba(37, 36, 36, 0.808);
+    border-left: 2px solid black;
+}
+
+#ispod3 {
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    line-height: 60px;
+}
+
+#ispod3 h2 {
+    margin-left: 5%;
+    margin-top: 40px;
+    color: white;
+    font-size: 44px;
+    font-weight: bold;
+    font-family: Warnes, cursive;
+}
+
+#tabelaVozaci {
+    width: 100%;
+    height: 112%;
+    border-radius: 10px;
+    background-color: rgba(37, 36, 36, 0.808);
+}
+
+/*Kraj Vozaci*/
+
+/*DetaljiVozaca*/
+
+#podaciVozaca {
+    width: 100%;
+    height: 1524px;
+    background-color: rgba(34, 32, 32, 0.808);
+    color: white;
+    margin-left: 100%;
+    margin-top: -561px;
+}
+
+#untrasnjiPodaciVozaca {
+    width: 100%;
+    height: 26%;
+    border-bottom: 1px solid black;
+}
+
+#slikeVozaca{
+padding-top: 20px;
+padding-left: 20px;
+}
+
+#slikeZastavaVozaca {
+    margin-left: 120px;  
+    margin-top: -90px; 
+}
+
+#tekst {
+    padding: 25px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    font-size: 17px;
+}
+
+#tekst p {
+    margin-top: 5px;
+
+}
+
+/*Kraj DetaljiVozaca*/
+
+
+/*DetaljiVozacaRezultat*/
+
+#Main22 {
+    margin-left: 200%;
+    margin-top: -1585px;
+    width: 500%;
+    height: 1585px;
+    background-color: rgba(37, 36, 36, 0.808);
+
+}
+
+#konstruktor22 {
+    background-color: rgb(66, 63, 63);
+    width: 120%;
+    height: 60px;
+    border-bottom: 1px solid black;
+    margin-left: -20%;
+}
+
+
+#tabelaGlavna22 {
+    margin-top: 100px;
+    width: 95%;
+    height: 80%;
+    margin-left: 2%;
+    padding: 20px;
+}
+
+#tabelaDva22 {
+    width: 90%;
+    height: 82%;
+    background-color: rgba(37, 36, 36, 0.808);
+    margin-top: -90px;
+    font-family: Ramabhadra, sans-serif;
+    border-radius: 10px;
+}
+
+
+
+/*Kraj DetaljiVozacaRezultat*/
+
+
+/*RaceCalendar*/
+#Main4 {
+    margin-left: 100%;
+    margin-top: -622px;
+    width: 570%;
+    height: 1585px;
+    background-color: rgba(37, 36, 36, 0.808);
+    border-left: 2px solid black;
+}
+
+#konstruktor4 {
+    background-color: rgb(66, 63, 63);
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid black;
+}
+
+#ispod4 {
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    line-height: 60px;
+}
+
+#ispod4 h2 {
+    margin-left: 5%;
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 44px;
+    font-weight: bold;
+    font-family: Warnes, cursive;
+}
+
+#tabela4 {
+    width: 100%;
+    height: 112%;
+    border-radius: 10px;
+    background-color: rgba(37, 36, 36, 0.808);
+}
+
+#naslov4 {
+    font-family: Ramabhadra, sans-serif;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+
+#tabela4 th {
+    font-size: 25px;
+}
+
+/*Kraj RaceCalendar*/
+
+
+/*RaceDetails*/
+
+#podaciTrke {
+    width: 100%;
+    height: 1524px;
+    background-color: rgba(34, 32, 32, 0.808);
+    color: white;
+    margin-left: 100%;
+    margin-top: -561px;
+}
+
+#tekstTrke {
+    padding: 25px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+}
+
+#tekstTrke p {
+    margin-top: 5px;
+}
+
+#TRzastave {
+    padding-top: 50px;
+}
+
+
+#Main32 {
+    margin-left: 200%;
+    margin-top: -1585px;
+    width: 500%;
+    height: 1585px;
+    background-color: rgba(37, 36, 36, 0.808);
+
+}
+
+#konstruktor32 {
+    background-color: rgb(66, 63, 63);
+    width: 120%;
+    height: 60px;
+    border-bottom: 1px solid black;
+    margin-left: -20%;
+}
+
+#DveTabele {
+    padding: 15px;
+    display: flex;
+    height: 92%;
+}
+
+#tabelaTrke1 {
+    width: 40%;
+    height: 100%;
+}
+
+#tabelaRez1 {
+    background-color: rgba(37, 36, 36, 0.808);
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#tabelaTrke2 {
+    width: 60%;
+    height: 100%;
+}
+
+#tabelaRez2 {
+    background-color: rgba(37, 36, 36, 0.808);
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#DveTabele th {
+    color: white;
+    text-align: left;
+    padding-top: 20px;
+    background-color: rgba(37, 36, 36, 0.808);
+    font-style: oblique;
+    letter-spacing: 2px;
+    font-size: 24px;
+    text-align: center;
+    border-bottom: 1px solid black;
+
+}
+
+#DveTabele td {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    border-bottom: 1px solid black
+}
+
+/*Kraj RaceDetails*/
+
+
+/*Loader*/
+
+#pauza {
+    width: 100%;
+    height: 95%;
+}
+
+
+/*Kraj Loadera*/
+
+
+/*MEDIA*/
+
+@media (max-width: 1430px) {
+
+    #slikeZastavaVozaca {
+        margin-left: 20px;  
+        margin-top: 10px; 
+    }
+    #slikeZastava {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width: 1315px) {
+
+   
+    #DveTabele {
+        display: block;
+        
+    }
+
+    #Main32 {
+            width: 0%;
+        }
+
+     #konstruktor32 {
+            display: none;
+        }
+
+    #tabelaTrke1 {
+            margin-top:-1364px;
+            margin-bottom: 20px;
+            width: 905px;
+        }
+
+    #tabelaTrke2 {
+            width: 900px;
+        }
+
+    #podaciTrke {
+            height: 2934px;
+            margin-left: 105%;
+            margin-top: -614px;
+        }   
+}
+
+@media (max-width: 1200px) {
+
+    nav ul li p{
+        display: none;
+    }
+
+    #tabelaTrke1 {
+        width: 705px;
+    }
+    #tabelaTrke2 {
+        width: 700px;
+    }
+
+
+}
